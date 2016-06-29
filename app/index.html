@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es-ES" ng-app="wizard" >
+<html lang="es-ES" ng-app="ciidept" >
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
@@ -40,120 +40,7 @@ III. Anatomía de una aplicación AngularJS.
   <body > 
   
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="fondo_foto">
-                    <img src="img/1-Logo_nuevo_ciidept-.png" alt="" class="img-responsive">
-                </div>
-            </div>
-        </div>
-    
-        <div class="row">
-            <div class="col-md-3">
-                <time datetime="2014-09-20" class="icon">
-                    <em>Lunes</em>
-                    <strong>Junio</strong>
-                    <span>27</span>                   
-                    
-                    <a href="javascript:void(0)" class="btn btn-raised btn-info btn-xs">Ver</a>
-                
-
-                </time>
-            </div>
-            
-           <!--  <div class="col-md-3">
-              <div class="list-group">
-                 <div class="list-group-item">
-                   <div class="row-picture">
-                     <img class="circle" src="http://lorempixel.com/56/56/people/1" alt="icon">
-                   </div>
-                   <div class="row-content">
-                     <h4 class="list-group-item-heading">Tile with avatar</h4>
-           
-                     <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus</p>
-                   </div>
-                 </div>
-                 <div class="list-group-separator"></div>
-                 <div class="list-group-item">
-                   <div class="row-picture">
-                     <img class="circle" src="http://lorempixel.com/56/56/people/6" alt="icon">
-                   </div>
-                   <div class="row-content">
-                     <h4 class="list-group-item-heading">Tile with another avatar</h4>
-           
-                     <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
-                   </div>
-                 </div>
-                 <div class="list-group-separator"></div>
-                 <div class="list-group-item">
-                   <div class="row-action-primary checkbox">
-                     <label><input type="checkbox"></label>
-                   </div>
-                   <div class="row-content">
-                     <h4 class="list-group-item-heading">Tile with a checkbox in it</h4>
-           
-                     <p class="list-group-item-text">Donec id elit non mi risus varius blandit.</p>
-                   </div>
-                 </div>
-                 <div class="list-group-separator"></div>
-               </div>
-           </div>
-           
-           <div class="col-md-3">
-               <div class="list-group">
-                 <div class="list-group-item">
-                   <div class="row-picture">
-                     <img class="circle" src="http://lorempixel.com/56/56/people/1" alt="icon">
-                   </div>
-                   <div class="row-content">
-                     <h4 class="list-group-item-heading">Tile with avatar</h4>
-           
-                     <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus</p>
-                   </div>
-                 </div>
-                 <div class="list-group-separator"></div>
-                 <div class="list-group-item">
-                   <div class="row-picture">
-                     <img class="circle" src="http://lorempixel.com/56/56/people/6" alt="icon">
-                   </div>
-                   <div class="row-content">
-                     <h4 class="list-group-item-heading">Tile with another avatar</h4>
-           
-                     <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
-                   </div>
-                 </div>
-                 <div class="list-group-separator"></div>
-                 <div class="list-group-item">
-                   <div class="row-action-primary checkbox">
-                     <label><input type="checkbox"></label>
-                   </div>
-                   <div class="row-content">
-                     <h4 class="list-group-item-heading">Tile with a checkbox in it</h4>
-           
-                     <p class="list-group-item-text">Donec id elit non mi risus varius blandit.</p>
-                   </div>
-                 </div>
-                 <div class="list-group-separator"></div>
-               </div>
-               
-              <div class="panel panel-default panel_index">
-                  <div class="panel_index panel-heading">Panel heading</div>
-                      <div class="panel-body">
-                          Panel content
-                      </div>
-              </div>
-              <div class="panel panel-default panel_index">
-                  <div class="panel_index panel-heading">Panel heading</div>
-                      <div class="panel-body">
-                          Panel content
-                      </div>
-              </div>
-           </div>
-                -->
-        </div>    
-            
-    </div>
+    <div ng-view></div>
     
 
  
@@ -167,10 +54,13 @@ III. Anatomía de una aplicación AngularJS.
     <script src="lib/bootstrap-material-design/dist/js/ripples.js"></script>
     <script src="lib/angular-sanitize/angular-sanitize.js"></script>
     <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js js/app.min.js -->
     <!-- inject:js -->
+   
+    <script src="/scripts/services.js"></script>
    
     <script src="/scripts/controllers.js"></script>
    
