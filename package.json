@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "pagina-web-ciidept",
+=======
+  "name": "pagina-web-ciidept",
+>>>>>>> refs/remotes/origin/master
   "version": "0.0.1",
   "description": "pagina web Ciidept",
   "author": "Lucas Laime, Pablo Aguero",
