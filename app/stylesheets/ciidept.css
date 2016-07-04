@@ -44,7 +44,14 @@ time.icon * {
     font-style: normal;
     text-align: center;
 }
-
+time.icon p{
+    display: inline-block;
+    margin-top: 15%;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
 time.icon strong
 {
   position: absolute;
@@ -74,11 +81,11 @@ time.icon span
 time.icon a {
   position: relative;
   display: block;
-  width: 100px;
+  width: 145px;
   height: 30px;
-  margin-left:150px;
+  margin-left: 107px;
   text-align: center;
-  top: 75px;
+  top: 6px;
   font-size: 0.9em;
   font-weight: bold;
 }
@@ -93,7 +100,7 @@ time.icon:hover, time.icon:focus
   background: rgba(255,255,255,0.5) ;
   padding: 10px 10px 10px 10px;
   top: 15px;
-  height: ;
+  height:255px ;
   text-align: justify;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -103,6 +110,15 @@ time.icon:hover, time.icon:focus
   font-family: 'Open Sans', sans-serif;
 }
 
+.eventos_texto {
+  background: rgba(255,255,255,0.5) ;
+  padding: 10px 10px 10px 10px;
+  top: 15px;
+  height:auto ;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
 
 
 @-webkit-keyframes swing {
