@@ -19,7 +19,7 @@ angular
                     'step4': 'templates/inscripcion.tpl.html'};
   }
 
-  function HomeCtrl($scope, Eventos, EventosxDia, NoticiasCiidept, $http){
+  function HomeCtrl($scope, Eventos, EventosxDia, NoticiasCiidept, ImagenesNoticias, ProyectosCiidept, $http){
 
     $scope.dia=EventosxDia.query();
           
@@ -40,6 +40,20 @@ angular
           $scope.noticia.$promise.then(function(res){
           $scope.noticias = res;
           console.log($scope.noticias);
+        });
+
+    $scope.imagen = ImagenesNoticias.query();
+          
+          $scope.imagen.$promise.then(function(res){
+          $scope.imagenes = res;
+          console.log($scope.imagenes);
+        });
+
+    $scope.proyecto = ProyectosCiidept.query();
+          
+          $scope.proyecto.$promise.then(function(res){
+          $scope.proyectos = res;
+          console.log($scope.proyectos);
         });
 
 /*          console.log($scope.eventos1);

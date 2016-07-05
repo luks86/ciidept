@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 html, body { 
-  background: url(../img/ciidept_fondo.jpg) no-repeat center center; 
+  background: url(../img/ciidept_fondo.jpg) no-repeat center center fixed; 
   height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
